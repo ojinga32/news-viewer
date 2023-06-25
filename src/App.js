@@ -1,6 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 
+
+// 연습
 function App() {
   const [data, setData] = useState(null);
   const onClick = () => {
