@@ -3,6 +3,9 @@ import axios from "axios";
 
 
 // 연습
+
+// 두번째 연습
+// 하이하이
 function App() {
   const [data, setData] = useState(null);
   const onClick = () => {
