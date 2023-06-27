@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// 리액트 css
 const NewsItemBlock = styled.div`
   display: flex;
   .thumbnail {

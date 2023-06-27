@@ -1,7 +1,6 @@
 import { Route, useParams } from 'react-router-dom';
 import Categories from '../components/Categories';
 import NewsList from '../components/NewsList';
-import App from '../App';
 
 const NewsPage = () => {
   const params = useParams();

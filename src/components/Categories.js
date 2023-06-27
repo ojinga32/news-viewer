@@ -31,7 +31,7 @@ const categories = [
     text: '기술',
   },
 ];
-
+// 리액트 css
 const CategoriesBlock = styled.div`
   display: flex;
   padding: 1rem;
@@ -42,7 +42,7 @@ const CategoriesBlock = styled.div`
     overflow-x: auto;
   }
 `;
-
+// 리액트 css
 const Category = styled(NavLink)`
   font-size: 1.125rem;
   cursor: pointer;
@@ -75,7 +75,7 @@ const Categories = () => {
       {categories.map((c) => (
         <Category
           key={c.name}
-          className={({isActive}) => (isActive? 'active' : undefined)}
+          className={({ isActive }) => (isActive ? 'active' : undefined)}
           to={c.name === 'all' ? '/' : `/${c.name}`}
         >
           {c.text}
